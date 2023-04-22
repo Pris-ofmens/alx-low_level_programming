@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - start
  * Description: Alphabet in lower case except q and e

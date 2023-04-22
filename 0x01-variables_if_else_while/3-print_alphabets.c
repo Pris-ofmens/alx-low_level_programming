@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - start
  * description:alphabet in lowercase and uppercase with a new line
@@ -12,10 +13,12 @@ int main(void)
 	while (n <= 122)
 	{
 		putchar(n);
+		n++;
 	}
 	while (m <= 90)
 	{
 		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
