@@ -1,34 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - start
- * description:
+ * Description: different combinations of two digits
  * Return: (0) always
  */
 int main(void)
 {
-	int f, c;
+	int f, s;
 
-	for (f = 0; f < 9; f++)
+	for (f = '0'; f < '9'; f++)
 	{
-		putchar(f);
+		for (s = f + 1; s <= '9'; s++)
 		{
-			for (c = f + 1; c <= 9; c++)
+			if (s != f)
 			{
-				if (c != f)
-
-				putchar(c);
-				{
-					if (f == 8 && c == 9)
-						continue;
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(f);
+				putchar(s);
+				if (f == '8' && s == '9')
+					continue;
+				putchar(',');
+				putchar(' ');
 			}
 		}
-				putchar('\n');
-
-				return (0);
 	}
+	putchar('\n');
+	return (0);
 }
+
