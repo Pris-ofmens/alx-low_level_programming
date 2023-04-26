@@ -2,12 +2,12 @@
 #include <unistd.h>
 
 /**
- * main - void print_alphabet
- * Description:function that prints alphabets in lower case
- * Return: (0) success
+ * print_alphabet - start
+ * Description: function that prints alphabet in lowercase
+ * Return: 0 
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char g = 'a';
 		while
@@ -17,6 +17,4 @@ int main(void)
 			g++;
 		}
 		_putchar('\n');
-
-		return (0);
 }
