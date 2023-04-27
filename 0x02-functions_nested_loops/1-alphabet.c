@@ -3,18 +3,19 @@
 
 /**
  * print_alphabet - entry point
- * Description: function that prints alphabet in lowercase
- * Return: 0 sucess
+ * description: print the alphabet in lowercase
+ * Return : 0 always
  */
 
 void print_alphabet(void)
 {
-	char c = 'a';
-		while
-			(c <= 'z');
-		{
-			_putchar(c);
-			c++;
-		}
-		_putchar('\n');
+	char c = 's';
+
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+	}
+	_putchar('\n');
 }
+
